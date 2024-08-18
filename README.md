@@ -115,6 +115,12 @@ Or you can check an [example](https://github.com/vangogih/UEPT.Example) project.
 
 ### TODO
 Create a setup wizard to automate steps 4-9
+- Renaming of files and dirs:  
+  - install rename on mac  
+`$ brew install rename`  
+  - run a couple of times (not recursive)  
+`find . -iname "*UEPT*" -exec rename 's/UEPT/NewName/g' '{}' \; `
+
 
 ## Folders purpose
 
